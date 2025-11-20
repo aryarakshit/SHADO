@@ -32,7 +32,6 @@
 - ✅ **Triple-Layer Encryption** - Filename + AES-256 + ChaCha20
 - ✅ **Stealth Location** - Hidden in Windows system folders
 - ✅ **Cross-Vault Merging** - Merge vaults with different passwords (auto re-encryption)
-- ✅ **No Admin Rights** - Runs without Administrator privileges
 - ✅ **Smart Backups** - Backup-on-delete with interactive management
 - ✅ **Import/Export** - Full vault backup to ZIP
 - ✅ **CLI + GUI** - Fast command-line with file picker dialogs
