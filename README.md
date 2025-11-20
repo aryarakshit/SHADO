@@ -53,7 +53,6 @@ SHADO is **exclusively designed for Windows** and uses Windows-specific features
 
 - **Windows 10/11** (required)
 - **Python 3.8+**
-- Administrator rights **NOT** required
 
 ---
 
