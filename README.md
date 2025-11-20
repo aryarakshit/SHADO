@@ -184,17 +184,12 @@ abc destroy
 - ✅ **PBKDF2-HMAC-SHA256** - 100,000 iterations for key derivation
 - ✅ **Unique salt** - Per-vault salt stored in `config.dat`
 
-### Security Rating: 9.5/10
-
 **Strengths:**
 - ✅ Encrypted filenames (prevents metadata leakage)
 - ✅ Dual-algorithm encryption (AES + ChaCha20)
 - ✅ Military-grade algorithms
 - ✅ Stealth location (hidden in Windows system folders)
 - ✅ No obvious indicators
-
-**Limitations:**
-- ⚠️ Keys exist in RAM while unlocked (standard for all encryption software)
 
 ---
 
