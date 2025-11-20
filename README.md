@@ -49,11 +49,6 @@ SHADO is **exclusively designed for Windows** and uses Windows-specific features
 - AppData folder structure
 - Windows system folder disguise
 
-**Not compatible with:**
-- ❌ Linux
-- ❌ macOS
-- ❌ Other operating systems
-
 ---
 
 ## 📋 Prerequisites
