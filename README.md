@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Security](https://img.shields.io/badge/Security-9.5%2F10-brightgreen.svg)](#security-note)
 
 **SHADO** (*Shadow*) - A secure, hidden encryption vault for Windows with **3-layer encryption**.
 
