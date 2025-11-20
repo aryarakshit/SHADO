@@ -24,7 +24,6 @@
 - **Anti-Detection**: Blends in with legitimate Windows system files
 
 **Authentication**: PBKDF2-HMAC-SHA256 password verification (100,000 iterations)  
-**Security Rating**: **9.5/10** (military-grade encryption + stealth location)
 
 ---
 
