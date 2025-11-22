@@ -10,7 +10,7 @@
 
 ---
 
-## 🔒 Security Architecture
+# 🔒 Security Architecture
 
 **3-Layer Encryption System:**
 1. **Layer 1**: Filename Encryption (SHA-256 hashing - hides file metadata)
