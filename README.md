@@ -4,11 +4,15 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue.svg)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+---
+
 ## Description / Overview
 
 **SHADO** (*Shadow*) is a secure, hidden encryption vault designed exclusively for Windows. It employs a robust **3-layer encryption system** to ensure your data remains private and secure.
 
 > **Note**: This project was developed with the assistance of AI. While core logic and architecture were designed collaboratively, code has been reviewed, modified, and adapted to meet specific security and functionality requirements.
+
+---
 
 **Security Architecture:**
 1. **Layer 1**: Filename Encryption (SHA-256 hashing - hides file metadata)
@@ -23,6 +27,8 @@
 **Authentication**: PBKDF2-HMAC-SHA256 password verification (100,000 iterations)
 
 **WINDOWS ONLY**: SHADO is exclusively designed for Windows and uses Windows-specific features like `SetFileAttributesW` and the AppData folder structure.
+
+---
 
 ## Installation
 
@@ -47,6 +53,8 @@
    - Use the provided `abc.bat` wrapper
 
 **Vault Location:** `C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Windows\.winsvc`
+
+---
 
 ## Usage
 
@@ -129,6 +137,8 @@ Completely remove vault (requires `abc setup` to recreate):
 abc destroy
 ```
 
+---
+
 ## Features
 
 - **Triple-Layer Encryption** - Filename + AES-256 + ChaCha20
@@ -139,12 +149,16 @@ abc destroy
 - **CLI + GUI** - Fast command-line with file picker dialogs
 - **No Admin Rights** - Runs without Administrator privileges
 
+---
+
 ## Tech Stack / Built With
 
 - **Language**: Python 3.8+
 - **Platform**: Windows
 - **Cryptography**: `cryptography` library (AES-GCM, ChaCha20-Poly1305, PBKDF2)
 - **GUI**: Tkinter (for file dialogs)
+
+---
 
 ## Contributing
 
@@ -157,9 +171,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Test thoroughly before submitting
 5. Update documentation as needed
 
+---
+
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Credits / Acknowledgments
 
